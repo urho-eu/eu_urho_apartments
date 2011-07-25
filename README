@@ -1,0 +1,22 @@
+About
+-----
+eu_urho_apartments is a Midgard2 MVC web application with the primary function
+to manage rental apartments.
+
+Author
+------
+Ferenc Szekely (ferenc.szekely@urho.eu)
+
+License
+-------
+All source code (including all the files in the repository) written by the
+author are release under the GNU Lesser General Public License Version 3.
+A copy of the license comes with the code or can be obtained from
+http://www.gnu.org/licenses/lgpl.html.
+
+Copyright
+---------
+The copyright of all source code (including all the files in the repository)
+belong to Urho Ltd. For contact information please refer to http://urho.eu or
+send an email to info@urho.eu.
+
