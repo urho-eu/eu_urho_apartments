@@ -1,0 +1,10 @@
+<div id="breadcrumb">
+  <tal:block tal:condition="exists:eu_urho_apartments/breadcrumb" tal:repeat="item eu_urho_apartments/breadcrumb">
+    <tal:block tal:condition="item/link">
+      <a tal:attributes="href item/link" tal:content="item/title"></a> &raquo;
+    </tal:block>
+    <tal:block tal:condition="not:item/link">
+      <span tal:content="item/title"></span>
+    </tal:block>
+  </tal:block>
+</div>

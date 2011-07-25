@@ -1,0 +1,15 @@
+services_dispatcher: appserv
+providers_component: midgardmvc
+providers_hierarchy: midgard2
+development_mode: true
+
+components:
+    midgardmvc_core:
+        - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
+    eu_urho_apartments:
+        - {type: github, user: urho-eu, repository: eu_urho_apartments, branch: master}
+
+nodes:
+    title: Urho Ltd :: Apartments
+    content: <p>Welcome to Urho Apartments!</p>
+    component: eu_urho_apartments

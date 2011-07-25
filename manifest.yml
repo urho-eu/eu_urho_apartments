@@ -1,0 +1,22 @@
+version: 0.1
+
+authors:
+    ferenc:
+        name: Ferenc Szekely
+        email: ferenc.szekely@gmail.com
+        url: http://urho.eu/en
+
+requires:
+    midgardmvc_helper_forms:
+        - {type: github, user: midgardproject, repository: midgardmvc_helper_forms, branch: master}
+
+template_injector: eu_urho_apartments_injector
+
+routes:
+    index:
+        path: /
+        controller: eu_urho_apartments_controllers_index
+        action: index
+        template_aliases:
+            content: eua-index
+

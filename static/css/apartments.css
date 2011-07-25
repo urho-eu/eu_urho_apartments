@@ -1,0 +1,414 @@
+body {
+background-color:white;
+color:#666666;
+font-family:Verdana,Lucida,Arial,serif;
+font-size: 90%;
+margin: 0;
+padding: 0;
+}
+
+div#header,
+div#footer {
+background-color:#F57900;
+overflow:hidden;
+clear: both;
+}
+
+div#header {
+border-bottom:1px solid grey;
+height:35px;
+}
+
+div#footer {
+border-top:1px solid grey;
+height:40px;
+padding:8px 0 0 0;
+text-align:center;
+}
+
+div#footer .poweredby {
+line-height: 1.5em;
+}
+
+ul.sizes li, ul.sizes li a {
+background-color:orange;
+}
+
+div#breadcrumb {
+margin: 1em 0 0 0;
+padding: 0 0 1em 1em;
+}
+
+div#content {
+/*padding: 1em;*/
+}
+
+div#content.notfound,
+div#content.login {
+margin: 2em 0 2em 5em;
+}
+
+div#content div.form form label {
+display: block;
+margin: 0 0 1em 0;
+}
+
+div#content div.item label {
+display: block;
+margin: 1em 0 1em 0;
+}
+
+div#content div.form form label[for=public],
+div#content div.form form label[for=allowcomment] {
+display: inline;
+}
+
+div#content div.form form span {
+display: block;
+margin: 0 0 1em 0;
+}
+
+div#content div.form form label input,
+div#content div.form form label textarea {
+margin: 1em 0 0 0;
+display: block;
+}
+
+div#content div.form form label textarea {
+width: 20em;
+height: 6em;
+}
+
+div.form form input.midgardmvc_helper_forms_form_save {
+display: block;
+margin: 1em 0 0 0;
+}
+
+div#header div.loginbox {
+float: right;
+margin: 1em 1em 0 0;
+}
+
+img {
+border:medium none;
+}
+
+div.index {
+text-align:justify;
+}
+
+div.index {
+background-color:white;
+border-right:1px dashed orange;
+float:left;
+margin-bottom:1em;
+min-height:10em;
+padding-left:20px;
+/*padding-top:20px;*/
+width:80%;
+}
+
+div.index a.folder,
+div.index a.file {
+display:inline-block;
+text-align:center;
+float:left;
+margin: 1em 1em 2em 1em;
+min-width: 50px;
+}
+
+div.index a.folder {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/folder_48.png);
+background-position:center top;
+background-repeat:no-repeat;
+padding: 50px 0 0 0;
+position:relative;
+}
+
+div.index a.folder.unmanaged {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/folder_unmanaged_48.png);
+}
+
+div.index a.folder.locked {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/folder_locked_48.png);
+}
+
+div.thumbwrap {
+float:left;
+height:9em;
+text-align:center;
+width:12em;
+}
+
+div.thumbwrap span.unmanaged,
+div.thumbwrap span.locked,
+div.picwrap div#imagetools span {
+background-position:left top;
+background-repeat:no-repeat;
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 0;
+float: left;
+}
+
+div.thumbwrap.unknown {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/unmanaged_48.png);
+background-position:center top;
+background-repeat:no-repeat;
+padding:50px 0 0;
+position:relative;
+height: 48px;
+}
+
+div.thumbwrap span.unmanaged {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/unmanaged_16.png);
+width: 16px;
+height: 16px;
+left: 20px;
+top: 0px;
+}
+
+div.thumbwrap span.locked {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/locked_16.png);
+width: 16px;
+height: 16px;
+left: 20px;
+top: 0px;
+}
+
+div.picwrap {
+clear: both;
+float: none;
+margin: 1em;
+padding: 0;
+position: relative;
+}
+
+div.picwrap div {
+position: absolute;
+}
+
+div.picwrap img.pic {
+background-color: #EFEFEF;
+border-color: grey;
+border-style: solid;
+border-width: 1px 2px 2px 1px;
+margin: 5px;
+padding: 5px;
+}
+
+div.picwrap div.abovepic {
+margin-bottom: 2em;
+}
+
+div.picwrap div.abovepic,
+div.picwrap div.belowpic {
+clear: both;
+float: none;
+position: relative;
+}
+
+div.picwrap div#imagetools {
+display: inline-block;
+z-index: 1;
+}
+
+div.picwrap div#imagetools span.m {
+width: 32px;
+height: 32px;
+/*left: 42px;*/
+}
+
+div.picwrap div#imagetools span.l {
+width: 48px;
+height: 48px;
+/*left: 58px;*/
+}
+
+div.picwrap div#imagetools span.xl {
+width: 64px;
+height: 64px;
+left: 74px;
+}
+
+div.picwrap div#imagetools span.unmanaged {
+/*top: -6px;*/
+}
+
+div.picwrap div#imagetools span.unmanaged.m {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/unmanaged_32.png);
+}
+
+div.picwrap div#imagetools span.unmanaged.l {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/unmanaged_48.png);
+}
+
+div.picwrap div#imagetools span.unmanaged.xl {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/unmanaged_64.png);
+}
+
+div.picwrap div#imagetools span.rotateleft.m {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/rotate_left_32.png);
+}
+
+div.picwrap div#imagetools span.rotateright.m {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/rotate_right_32.png);
+}
+
+div.picwrap div#imagetools span.locked.m {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/locked_32.png);
+}
+
+div.picwrap div#imagetools span.busy {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/large-loading.gif);
+}
+
+div#imagenavigation div {
+background-repeat: no-repeat;
+display: inline-block;
+height: 100%;
+}
+
+div#imagenavigation div.prev {
+background-position: center left;
+}
+
+div#imagenavigation div.prev:hover {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/prev_64.png);
+}
+
+div#imagenavigation div.next {
+background-position: center right;
+position: relative;
+float: right;
+}
+
+div#imagenavigation div.next:hover {
+background-image:url(/midgardmvc-static/eu_urho_apartments/icons/next_64.png);
+}
+
+div.thumbwrap a.thumb img {
+border-color:lightGrey;
+border-style:solid;
+border-width:1px 2px 2px 1px;
+padding:0.5em;
+}
+
+div.thumbwrap a.thumb img:hover {
+background-color: orange;
+}
+
+#picnavibox {
+padding-top:5px;
+text-align:center;
+width:100%;
+}
+
+#picnavibox #picnavi {
+display:inline;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+padding:0;
+}
+
+#picnavibox #picnavi li {
+display:inline;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+padding-right:10px;
+}
+
+#picnavi .enabled {
+color:#666666;
+}
+
+#picnavi .disabled {
+color:#D0D0F0;
+}
+
+div#picbox {
+text-align:center;
+}
+
+div.odd {
+background: white;
+}
+
+div.even {
+background: lightgrey;
+}
+
+div.header {
+background: lightgreen;
+line-height: 2em;
+margin: 1em 0 0 0;
+}
+
+div.header div {
+font-weight: bold;
+display: inline-block;
+}
+
+div.header .title,
+div.gallery .title {
+width: 15em;
+}
+
+div.header  .owner,
+div.gallery .owner {
+width: 10em;
+}
+
+div.header  .path,
+div.gallery .path{
+width: 20em;
+}
+
+div.gallery {
+line-height: 2em;
+}
+
+div.gallery div {
+display: inline-block;
+}
+
+div#sidebar {
+border-bottom:1px solid orange;
+float:left;
+margin:0 0 0 5px;
+padding:0 0 1em 1em;
+width:15%;
+}
+
+div#sidebar div.briefing h2 {
+overflow: hidden;
+}
+
+div#sidebar div.briefing div.counters {
+color: lightgrey;
+margin: 1em 0 0 0;
+}
+
+div#sidebar div.briefing div.counters div.numofitems {
+margin: 0 1em 0 0;
+}
+
+div#sidebar div.briefing div.ajax_editable input,
+div#sidebar div.briefing div.ajax_editable textarea {
+width: 18em;
+}
+
+ul.sizes {
+list-style: none;
+padding: 0;
+}
+
+ul.sizes li,
+ul.sizes li a {
+background-color: lightblue;
+display: inline-block;
+width: 4em;
+}

@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: Apartments\n"
+"Report-Msgid-Bugs-To:\n"
+"PO-Revision-Date:\n"
+"Last-Translator:\n"
+"Language-Team: album <info@urho.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "welcome"
+msgstr "Welcome!"
+
+msgid "root_intro"
+msgstr "Welcome to Urho Apartments!"
+
+msgid "login"
+msgstr "Login"
+
+msgid "logout"
+msgstr "Logout"
+
+msgid "powered_by"
+msgstr "The site is powered by <a href=\"http://midgard-project.org\">Midgard</a> and <a href=\"http://github.com/urho-eu/eu_urho_apartments\">eu_urho_apartments</a>"
+
+msgid "feedback"
+msgstr "<a href=\"mailto:ferenc.szekely@urho.eu?Subject=apartments feedback\">Feedback or questions?</a>"
+
+msgid "prev_caption"
+msgstr "« Prev"
+
+msgid "next_caption"
+msgstr "Next »"
+

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC"-// W3C//DTD HTML 4.01//EN"" http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title i18n:domain="default" i18n:translate="'welcome'"></title>
+    <link href="/midgardmvc-static/eu_urho_apartments/css/apartments.css" rel="stylesheet" type="text/css" media="screen"/>
+    <tal:block tal:replace="php: MIDCOM.head.print_elements()" />
+  </head>
+  <body>
+    <mgd:include>eua-header</mgd:include>
+    <mgd:include>eua-breadcrumb</mgd:include>
+
+    <div id="content">
+      <mgd:include>content</mgd:include>
+    </div>
+
+    <mgd:include>eua-footer</mgd:include>
+    <mgd:include>eua-analytics</mgd:include>
+  </body>
+</html>
