@@ -1,7 +1,9 @@
 About
 -----
-eu_urho_apartments is a Midgard2 MVC web application with the primary function
-to manage rental apartments.
+This is a Midgard2 MVC web application with the primary function to manage
+rental apartments. A person or a company having one or more apartments can
+manage campaigns, news letters, bookings, invoicing etc. that are related to
+the accomodation and hosting business.
 
 Author
 ------
