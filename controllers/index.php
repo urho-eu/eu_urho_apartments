@@ -22,6 +22,41 @@ class eu_urho_apartments_controllers_index
      */
     public function get_index(array $args)
     {
+        $this->data['apartments'] = $this->get_apartments();
+    }
+
+    /**
+     * Get all available apartments
+     *
+     * @param string name of the apartment
+     * @return collection
+     */
+    public function get_apartments()
+    {
+        $collection = new midgardmvc_ui_create_container();
+
+        $placeholder = new eu_urho_apartments_apartment();
+        $placeholder->url = '';
+        $collection->set_placeholder($placeholder);
+
+        $q = new midgard_query_select
+        (
+            new midgard_query_storage('eu_urho_apartments_apartment')
+        );
+
+        $q->execute();
+
+        array_walk
+        (
+            $q->list_objects(),
+            function ($apartment) use ($collection)
+            {
+                $apartment->url = midgardmvc_core::get_instance()->dispatcher->generate_url('apartment', array('apartment' => $apartment->name), 'eu_urho_apartments');
+                $collection->attach($apartment);
+            }
+        );
+
+        return $collection;
     }
 }
 
