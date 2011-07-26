@@ -1,7 +1,5 @@
       <div id="header">
-        <tal:block tal:define="apartment current_component/apartment">
-            <h1 tal:content="apartment/title" tal:attributes="property apartment/rdfmapper/title">apartment Title</h1>
-        </tal:block>
+        <h1 class="company" tal:content="company">Configurable Company Name</h1>
         <mgd:include>eua-languages</mgd:include>
         <mgd:include>eua-banner</mgd:include>
         <mgd:include>eua-navigation</mgd:include>
