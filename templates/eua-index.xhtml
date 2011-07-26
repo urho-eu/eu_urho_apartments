@@ -1,1 +1,9 @@
-<div class="index"></div>
+<ul class="apartments" tal:condition="true: current_component/apartments" tal:define="apartments current_component/apartments" tal:attributes="typeof apartments/typeof">
+    <li class="apartment" tal:repeat="apartment apartments" tal:attributes="about apartment/rdfmapper/about; typeof apartment/rdfmapper/typeof">
+        <h3><a tal:content="apartment/title" tal:attributes="href apartment/url; property apartment/rdfmapper/title">Apartment Title</a></h3>
+        <p>
+            <span tal:content="structure apartment/abstract" tal:attributes="property apartment/rdfmapper/abstract">Abstract</span>
+            <a tal:attributes="href apartment/url">&#187;</a>
+        </p>
+    </li>
+</ul>
