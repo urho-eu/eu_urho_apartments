@@ -7,16 +7,16 @@ authors:
         url: http://urho.eu/en
 
 requires:
-    midgardmvc_helper_forms:
-        - {type: github, user: midgardproject, repository: midgardmvc_helper_forms, branch: master}
+    midgardmvc_ui_create:
+        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}    midgardmvc_helper_forms:
 
 template_injector: eu_urho_apartments_injector
 
 routes:
     index:
         path: /
-        controller: eu_urho_apartments_controllers_index
-        action: index
+        controller: eu_urho_apartments_controllers_apartments
+        action: apartment
         template_aliases:
             content: eua-index
 
