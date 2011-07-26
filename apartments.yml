@@ -8,7 +8,8 @@ services_authentication_authtypes:
     - Plaintext
     - SHA1
     - OpenID
-default_language: en_EN
+
+default_language: en_US
 
 components:
     midgardmvc_core:
