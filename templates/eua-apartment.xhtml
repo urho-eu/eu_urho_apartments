@@ -1,12 +1,12 @@
 <article tal:define="apartment current_component/apartment" tal:attributes="about apartment/rdfmapper/about; typeof apartment/rdfmapper/typeof">
 
     <section class="tagline" tal:content="structure apartment/abstract" tal:attributes="property apartment/rdfmapper/abstract">
-        Tagline
+        Short info about the apartment
     </section>
 
     <div class="clear"></div>
 
-    <section tal:content="structure apartment/content" tal:attributes="property apartment/rdfmapper/content">
+    <section tal:content="structure apartment/description" tal:attributes="property apartment/rdfmapper/description">
         More information about the apartment
     </section>
 
