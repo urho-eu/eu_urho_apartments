@@ -1,0 +1,20 @@
+# Name of the company who hosts the apartments
+company: Apartment Company
+
+# Introduction of the company in several languages
+introduction:
+    hu_HU: Magyar bemutatkozó szöveg
+    en_US: English introduction text
+    bg_BG: Болгарски
+
+# Default language
+default_language: en_US
+
+# The id of the Midgard2 topic which holds blog posts
+blog_topic_id:
+
+# The id of the Midgard2 topic which holds gallery and item comments
+comments_topic_id:
+
+# Google Analytics code
+google_analytics_code:
