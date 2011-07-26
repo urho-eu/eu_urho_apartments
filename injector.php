@@ -7,7 +7,7 @@
  */
 
 /**
- * Album's injector
+ * Injector
  *
  * @package eu_urho_apartments
  */
@@ -38,17 +38,6 @@ class eu_urho_apartments_injector
         {
             $request->set_data_item('eua_user', $this->midgardmvc->authentication->get_person());
             $route->template_aliases['loginbox'] = 'eua-userbox';
-        }
-
-        // redirect param for login; see eua-loginbox
-        $path = $this->request->get_path();
-        if ($path != '/')
-        {
-            $request->set_data_item('redirect', rtrim($path, '/'));
-        }
-        else
-        {
-            $request->set_data_item('redirect', $path);
         }
     }
 }
