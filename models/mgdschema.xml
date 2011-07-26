@@ -3,20 +3,28 @@
 
     <type name="eu_urho_apartments_apartment" table="eu_urho_apartments_apartment">
         <user_values>
-            <typeof>doap:Apartment</typeof>
-            <namespaces>doap:http://usefulinc.com/ns/doap#</namespaces>
+            <typeof>foaf:Document</typeof>
+            <namespaces>foaf:http://xmlns.com/foaf/0.1/,doap:http://usefulinc.com/ns/doap#</namespaces>
         </user_values>
         <property name="id" type="unsigned integer" primaryfield="id">
             <description>Local non-replication-safe database identifier</description>
         </property>
         <property name="name" type="string" index="yes">
+            <description>Unique, carefully crafted name. Usually generated from the title.</description>
         </property>
         <property name="title" type="string">
-            <property>doap:name</property>
+            <property>dcterms:title</property>
+            <description>Pretty name of the apartment</description>
         </property>
         <property name="abstract" type="text">
             <property>doap:shortdesc</property>
             <contenttype>html</contenttype>
+            <description>Short introduction of the apartment</description>
+        </property>
+        <property name="content" type="text">
+            <property>sioc:content</property>
+            <contenttype>html</contenttype>
+            <description>Longer description of the apartment</description>
         </property>
     </type>
 
