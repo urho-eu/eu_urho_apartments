@@ -1,41 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Schema xmlns="http://www.midgard-project.org/repligard/1.4">
 
-    <type name="eu_urho_album_item" table="eu_urho_album_item">
+    <type name="eu_urho_apartments_apartment" table="eu_urho_apartments_apartment">
+        <user_values>
+            <typeof>doap:Apartment</typeof>
+            <namespaces>doap:http://usefulinc.com/ns/doap#</namespaces>
+        </user_values>
         <property name="id" type="unsigned integer" primaryfield="id">
-            <description>Local non-replication-safe identifier</description>
+            <description>Local non-replication-safe database identifier</description>
+        </property>
+        <property name="name" type="string" index="yes">
         </property>
         <property name="title" type="string">
-            <description>Name of the item</description>
-            <required>true</required>
+            <property>doap:name</property>
         </property>
-        <property name="description" type="text">
-            <description>Textual description of the item</description>
-            <required>false</required>
-        </property>
-        <property name="path" type="text">
-            <description>Location within the filesystem</description>
-            <required>true</required>
-        </property>
-        <property name="public" type="bool">
-            <description>Available for public view</description>
-            <required>false</required>
-        </property>
-        <property name="allowcomment" type="bool">
-            <description>Allow commenting the item</description>
-            <required>false</required>
-        </property>
-    </type>
-
-    <type name="eu_urho_album_relation" table="eu_urho_album_relation" parent="eu_urho_album_item">
-        <property name="id" type="unsigned integer" primaryfield="id">
-            <description>Local non-replication-safe identifier</description>
-        </property>
-        <property name="parent" type="guid" parentfield="parent" link="eu_urho_album_item:guid">
-            <description>Parent item</description>
-        </property>
-        <property name="item" type="guid" link="eu_urho_album_item:guid">
-            <description>Child item</description>
+        <property name="abstract" type="text">
+            <property>doap:shortdesc</property>
+            <contenttype>html</contenttype>
         </property>
     </type>
 
