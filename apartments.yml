@@ -25,3 +25,30 @@ nodes:
     title: Urho Ltd :: Apartments
     content: <p>Welcome to Urho Apartments!</p>
     component: eu_urho_apartments
+
+attachmentserver_variants:
+    smallthumbnail:
+        scale:
+            width: 70
+            height: 70
+    thumbnail:
+        scale:
+            width: 100
+            height: 100
+    smallview:
+        scale:
+            width: 220
+            height: 220
+    view:
+        scale:
+            width: 380
+            height: 380
+    large:
+        scale:
+            width: 600
+            height: 600
+
+    banner:
+        scale:
+            width: 900
+            height: 300
