@@ -4,12 +4,19 @@ color:#666666;
 font-family:Verdana,Lucida,Arial,serif;
 font-size: 90%;
 padding: 0;
-margin: 1em auto;
+margin: 1em auto !important;
 width: 900px;
 }
 
 img {
 border:medium none;
+}
+
+.clear{
+clear: both;
+overflow: hidden;
+height: 0px;
+display: block;
 }
 
 div#header,
@@ -30,7 +37,7 @@ div#footer .poweredby {
 line-height: 1.5em;
 }
 
-h1.apartment_name {
+h1.company {
 display: inline-block;
 float: left;
 margin: 0;

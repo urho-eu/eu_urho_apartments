@@ -1,6 +1,6 @@
-document.write('<script type="text/javascript" src="/midgardmvc-static/org_midgardproject_projectsite/js/shjs/sh_main.min.js"></script>');
-document.write('<script type="text/javascript" src="/midgardmvc-static/org_midgardproject_projectsite/js/shjs/sh_php.min.js"></script>');
-document.write('<link rel="stylesheet" href="/midgardmvc-static/org_midgardproject_projectsite/js/shjs/sh_zenburn.min.css">');
+document.write('<script type="text/javascript" src="/midgardmvc-static/eu_urho_apartments/js/shjs/sh_main.min.js"></script>');
+document.write('<script type="text/javascript" src="/midgardmvc-static/eu_urho_apartments/js/shjs/sh_php.min.js"></script>');
+document.write('<link rel="stylesheet" href="/midgardmvc-static/eu_urho_apartments/js/shjs/sh_zenburn.min.css">');
 
 jQuery(document).ready(function() {
     jQuery('pre').each(function() {
@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
             jQuery(this).addClass('sh_php');
             return true;
         }
-        
+
         if (content.substr(0, 1) === '$' &&
             content.substr(-1, 1) === ';') {
             jQuery(this).addClass('sh_php');
@@ -30,5 +30,5 @@ jQuery(document).ready(function() {
             return true;
         }
     });
-    sh_highlightDocument('/midgardmvc-static/org_midgardproject_projectsite/js/shjs/', '.min.js');
+    sh_highlightDocument('/midgardmvc-static/eu_urho_apartments/js/shjs/', '.min.js');
 });
