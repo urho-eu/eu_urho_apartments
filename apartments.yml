@@ -3,11 +3,22 @@ providers_component: midgardmvc
 providers_hierarchy: midgard2
 development_mode: true
 
+services_authentication_authtype: Plaintext
+services_authentication_authtypes:
+    - Plaintext
+    - SHA1
+    - OpenID
+default_language: en_EN
+
 components:
     midgardmvc_core:
         - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
     eu_urho_apartments:
         - {type: github, user: urho-eu, repository: eu_urho_apartments, branch: master}
+    midgardmvc_ui_create:
+        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
+    midgardmvc_helper_attachmentserver:
+        - {type: github, user: bergie, repository: midgardmvc_helper_attachmentserver, branch: master}
 
 nodes:
     title: Urho Ltd :: Apartments
