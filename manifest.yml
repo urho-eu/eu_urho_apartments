@@ -20,12 +20,17 @@ routes:
         controller: eu_urho_apartments_controllers_index
         action: index
         template_aliases:
+            header: eua-header
+            banner: eua-banner
             content: eua-index
+
     apartment:
         path: /apartments/{$apartment}
         controller: eu_urho_apartments_controllers_apartment
         action: apartment
         template_aliases:
+            header: eua-header
+            banner: eua-apartment-banner
             content: eua-apartment
 
 observations:
