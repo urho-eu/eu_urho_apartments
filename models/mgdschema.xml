@@ -21,7 +21,7 @@
             <contenttype>html</contenttype>
             <description>Short introduction of the apartment</description>
         </property>
-        <property name="content" type="text">
+        <property name="description" type="text">
             <property>sioc:content</property>
             <contenttype>html</contenttype>
             <description>Longer description of the apartment</description>
