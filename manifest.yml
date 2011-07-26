@@ -8,15 +8,30 @@ authors:
 
 requires:
     midgardmvc_ui_create:
-        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}    midgardmvc_helper_forms:
+        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
+    midgardmvc_helper_urlize:
+        - {type: github, user: bergie, repository: midgardmvc_helper_urlize, branch: master}
 
 template_injector: eu_urho_apartments_injector
 
 routes:
     index:
         path: /
-        controller: eu_urho_apartments_controllers_apartments
-        action: apartment
+        controller: eu_urho_apartments_controllers_index
+        action: index
         template_aliases:
             content: eua-index
+    apartment:
+        path: /apartments/{$apartment}
+        controller: eu_urho_apartments_controllers_apartment
+        action: apartment
+        template_aliases:
+            content: eua-apartment
 
+observations:
+    -
+        type: eu_urho_apartments_apartment
+        event:
+            - action-create
+            - action-update
+        callback: eu_urho_apartments_injector::create_url
