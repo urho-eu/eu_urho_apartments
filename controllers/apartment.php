@@ -4,6 +4,8 @@ class eu_urho_apartments_controllers_apartment
     public function __construct(midgardmvc_core_request $request)
     {
         $this->request = $request;
+        $this->mvc = midgardmvc_core::get_instance();
+        eu_urho_apartments_utils::set_language();
     }
 
     /**
@@ -16,7 +18,10 @@ class eu_urho_apartments_controllers_apartment
         $this->data['apartment'] = $this->get_apartment_by_name($args['apartment']);
         $this->data['apartment']->rdfmapper = new midgardmvc_ui_create_rdfmapper($this->data['apartment']);
 
-        // @todo: fetch details
+        // fetch default features
+        $this->data['features'] = $this->retrieve_features();
+#var_dump($this->data['features']);
+#die;
 
         midgardmvc_core::get_instance()->head->set_title($this->data['apartment']->title);
 
@@ -72,5 +77,30 @@ class eu_urho_apartments_controllers_apartment
         $apartments = $q->list_objects();
 
         return $apartments[0];
+    }
+
+    /**
+     * Reads the features from config file and returns their localized names
+     *
+     * @return array of features
+     */
+    public function retrieve_features()
+    {
+        $retval = array();
+
+        $categories = $this->mvc->configuration->features;
+
+        foreach ($categories as $category => $features)
+        {
+            $retval[$category]['css'] = $category;
+            $retval[$category]['name'] = mb_convert_case($this->mvc->i18n->get($category), MB_CASE_TITLE, "UTF-8");
+            foreach ($features as $feature)
+            {
+                $retval[$category]['list'][$feature]['css'] = $feature;
+                $retval[$category]['list'][$feature]['name'] = $this->mvc->i18n->get($feature);
+            }
+        }
+
+        return $retval;
     }
 }
