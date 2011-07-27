@@ -1,5 +1,5 @@
       <div id="header">
-        <h1 class="company" tal:content="company">Configurable Company Name</h1>
+        <h1 class="company"><a tal:attributes="href php: '/?lang=' . lang" tal:content="company">Configurable Company Name</a></h1>
         <mgd:include>eua-languages</mgd:include>
         <mgd:include>banner</mgd:include>
       </div>
