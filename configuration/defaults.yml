@@ -7,6 +7,60 @@ introduction:
     en_US: English introduction text
     bg_BG: Болгарски
 
+# Feature list with corresponding icons
+features:
+    general:
+        - gym
+        - pets
+        - kennel
+        - parking
+        - child safe
+        - non-smoking
+        - central heating
+        - airconditioning
+    bedroom:
+        - playpen
+        - bed linen
+        - extra heater
+    kitchen:
+        - grill
+        - plates
+        - microwave
+        - dishwasher
+        - gas oven
+        - high chair
+        - electric oven
+        - refrigerator
+        - espresso machine
+    bathroom:
+        - sauna
+        - shower
+        - bathtub
+        - jacuzzi
+        - baby bathtub
+        - separate toilet
+    entertainment:
+        - bar
+        - tv
+        - cd
+        - dvd
+        - stereo
+        - karaoke
+        - hifi set
+        - satellite
+        - game console
+    garden:
+        - grill
+        - barbeque
+        - fireplace
+        - playground
+        - swimming pool
+    cleaning:
+        - iron
+        - vacuum
+        - clothes dryer
+        - washing machine
+
 # Default language
 default_language: en_US
 
