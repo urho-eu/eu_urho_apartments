@@ -10,4 +10,21 @@
         More information about the apartment
     </section>
 
+    <h3 i18n:translate="'Features'"></h3>
+
+    <tal:block tal:define="list current_component/features">
+
+      <ul class="features" metal:define-macro="output_list" tal:condition="true:list">
+          <li tal:attributes="class list_item/css" tal:repeat="list_item list">
+              ${list_item/name}
+              <tal:block tal:condition="exists:list_item/list">
+                <tal:block tal:define="list list_item/list" metal:use-macro="output_list" />
+              </tal:block>
+          </li>
+      </ul>
+
+      <tal:block metal:use-macro="output_list" />
+
+    </tal:block>
+
 </article>
