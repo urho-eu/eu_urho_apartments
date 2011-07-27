@@ -7,7 +7,7 @@ introduction:
     en_US: English introduction text
     bg_BG: Болгарски
 
-# Feature list with corresponding icons
+# Feature list
 features:
     general:
         - gym
@@ -57,7 +57,7 @@ features:
         - swimming pool
     cleaning:
         - iron
-        - vacuum
+        - vacuum cleaner
         - clothes dryer
         - washing machine
 
