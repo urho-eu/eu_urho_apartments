@@ -31,8 +31,8 @@ msgstr "« Prev"
 msgid "next caption"
 msgstr "Next »"
 
-msgid "features"
-msgstr "features"
+msgid "Features"
+msgstr "Features"
 
 msgid "general"
 msgstr "general"

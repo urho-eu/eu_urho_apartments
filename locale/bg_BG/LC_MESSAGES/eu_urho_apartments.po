@@ -31,8 +31,8 @@ msgstr "« Предишна"
 msgid "next caption"
 msgstr "Следваща »"
 
-msgid "features"
-msgstr "черти"
+msgid "Features"
+msgstr "Черти"
 
 msgid "general"
 msgstr "общо"

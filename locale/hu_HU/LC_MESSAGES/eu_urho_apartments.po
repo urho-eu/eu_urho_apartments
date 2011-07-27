@@ -31,8 +31,8 @@ msgstr "« Előző"
 msgid "next caption"
 msgstr "Következő »"
 
-msgid "features"
-msgstr "szolgáltatások"
+msgid "Features"
+msgstr "Szolgáltatások"
 
 msgid "general"
 msgstr "általános"
