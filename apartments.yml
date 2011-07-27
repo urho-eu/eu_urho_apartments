@@ -47,8 +47,7 @@ attachmentserver_variants:
         scale:
             width: 600
             height: 600
-
     banner:
-        scale:
+        scaleExact:
             width: 900
             height: 300
