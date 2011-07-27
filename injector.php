@@ -15,7 +15,7 @@ class eu_urho_apartments_injector
 {
     var $component = 'eu_urho_apartments';
     var $request = null;
-    var $midgardmvc = null;
+    var $mvc = null;
 
     /**
      * Some template magic, setting language, company and user names
@@ -25,43 +25,27 @@ class eu_urho_apartments_injector
     public function inject_template(midgardmvc_core_request $request)
     {
         $this->request = $request;
-        $this->midgardmvc = midgardmvc_core::get_instance();
+        $this->mvc = midgardmvc_core::get_instance();
 
-        $this->request->add_component_to_chain($this->midgardmvc->component->get($this->component), true);
+        $this->request->add_component_to_chain($this->mvc->component->get($this->component), true);
 
-        $this->midgardmvc->i18n->set_translation_domain($this->component);
-        $this->midgardmvc->i18n->set_language($this->midgardmvc->configuration->default_language, false);
-
-        if (isset($_GET['lang']))
-        {
-            try
-            {
-                $this->midgardmvc->i18n->set_language($_GET['lang'], false);
-            }
-            catch (Exception $e)
-            {
-                // Check your locale configuration!
-                // A requested language should be supported by the host server.
-                // Revert to default
-                $this->midgardmvc->i18n->set_language($this->midgardmvc->configuration->default_language, false);
-            }
-        }
+        eu_urho_apartments_utils::set_language();
 
         $route = $request->get_route();
 
         $route->template_aliases['loginbox'] = 'eua-loginbox';
 
-        if ($this->midgardmvc->authentication->is_user())
+        if ($this->mvc->authentication->is_user())
         {
-            $request->set_data_item('eua_user', $this->midgardmvc->authentication->get_person());
+            $request->set_data_item('eua_user', $this->mvc->authentication->get_person());
             $route->template_aliases['loginbox'] = 'eua-userbox';
         }
 
         // set the company for the overall site
-        $request->set_data_item('company', $this->midgardmvc->configuration->company);
+        $request->set_data_item('company', $this->mvc->configuration->company);
 
         // set the language
-        $request->set_data_item('lang', $this->midgardmvc->i18n->get_language());
+        $request->set_data_item('lang', $this->mvc->i18n->get_language());
     }
 
     /**
