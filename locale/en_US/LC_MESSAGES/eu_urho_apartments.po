@@ -5,32 +5,181 @@ msgstr ""
 "Report-Msgid-Bugs-To:\n"
 "PO-Revision-Date:\n"
 "Last-Translator:\n"
-"Language-Team: album <info@urho.eu>\n"
+"Language-Team: Urho Ltd <info@urho.eu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "welcome"
-msgstr "Welcome!"
-
-msgid "root_intro"
 msgstr "Welcome to Urho Apartments!"
 
-msgid "login"
-msgstr "Login"
+msgid "log in"
+msgstr "log in"
 
-msgid "logout"
-msgstr "Logout"
+msgid "log out"
+msgstr "log out"
 
-msgid "powered_by"
+msgid "powered by"
 msgstr "The site is powered by <a href=\"http://midgard-project.org\">Midgard</a> and <a href=\"http://github.com/urho-eu/eu_urho_apartments\">eu_urho_apartments</a>"
 
 msgid "feedback"
 msgstr "<a href=\"mailto:ferenc.szekely@urho.eu?Subject=apartments feedback\">Feedback or questions?</a>"
 
-msgid "prev_caption"
+msgid "prev caption"
 msgstr "« Prev"
 
-msgid "next_caption"
+msgid "next caption"
 msgstr "Next »"
 
+msgid "features"
+msgstr "features"
+
+msgid "general"
+msgstr "general"
+
+msgid "bedroom"
+msgstr "bedroom"
+
+msgid "kitchen"
+msgstr "kitchen"
+
+msgid "bathroom"
+msgstr "bathroom"
+
+msgid "entertainment"
+msgstr "entertainment"
+
+msgid "garden"
+msgstr "garden"
+
+msgid "cleaning"
+msgstr "cleaning"
+
+msgid "gym"
+msgstr "gym"
+
+msgid "pets"
+msgstr "pets"
+
+msgid "kennel"
+msgstr "kennel"
+
+msgid "parking"
+msgstr "parking"
+
+msgid "child safe"
+msgstr "child safe"
+
+msgid "non-smoking"
+msgstr "non-smoking"
+
+msgid "central heating"
+msgstr "central heating"
+
+msgid "airconditioning"
+msgstr "airconditioning"
+
+msgid "playpen"
+msgstr "playpen"
+
+msgid "bed linen"
+msgstr "bed linen"
+
+msgid "extra heater"
+msgstr "extra heater"
+
+msgid "plates"
+msgstr "plates"
+
+msgid "microwave"
+msgstr "microwave"
+
+msgid "dishwasher"
+msgstr "dishwasher"
+
+msgid "gas oven"
+msgstr "gas oven"
+
+msgid "high chair"
+msgstr "high chair"
+
+msgid "electric oven"
+msgstr "electric oven"
+
+msgid "refrigerator"
+msgstr "refrigerator"
+
+msgid "espresso machine"
+msgstr "espresso machine"
+
+msgid "sauna"
+msgstr "sauna"
+
+msgid "shower"
+msgstr "shower"
+
+msgid "bathtub"
+msgstr "bathtub"
+
+msgid "jacuzzi"
+msgstr "jacuzzi"
+
+msgid "baby bathtub"
+msgstr "baby bathtub"
+
+msgid "separate toilet"
+msgstr "separate toilet"
+
+msgid "bar"
+msgstr "bar"
+
+msgid "tv"
+msgstr "tv"
+
+msgid "cd"
+msgstr "cd"
+
+msgid "dvd"
+msgstr "dvd"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "karaoke"
+msgstr "karaoke"
+
+msgid "hifi set"
+msgstr "hifi set"
+
+msgid "satellite"
+msgstr "satellite"
+
+msgid "game console"
+msgstr "game console"
+
+msgid "grill"
+msgstr "grill"
+
+msgid "barbeque"
+msgstr "barbeque"
+
+msgid "fireplace"
+msgstr "fireplace"
+
+msgid "playground"
+msgstr "playground"
+
+msgid "swimming pool"
+msgstr "swimming pool"
+
+msgid "iron"
+msgstr "iron"
+
+msgid "vacuum cleaner"
+msgstr "vacuum cleaner"
+
+msgid "clothes dryer"
+msgstr "clothes dryer"
+
+msgid "washing machine"
+msgstr "washing machine"
