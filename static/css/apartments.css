@@ -87,18 +87,9 @@ span.language a.bg {
 background-image:url(/midgardmvc-static/eu_urho_apartments/icons/flags/BG.gif);
 }
 
-
-ul.sizes li, ul.sizes li a {
-background-color:white;
-}
-
 div#breadcrumb {
 margin: 1em 0 0 0;
 padding: 0 0 1em 1em;
-}
-
-div#content {
-/*padding: 1em;*/
 }
 
 div#content.notfound,
@@ -127,4 +118,10 @@ background: white;
 
 div.even {
 background: lightgrey;
+}
+
+div#banner {
+clear: both;
+text-align: center;
+margin: 1em auto 0 auto;
 }
