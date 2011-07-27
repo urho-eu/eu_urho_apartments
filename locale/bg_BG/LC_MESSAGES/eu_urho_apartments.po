@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: Apartments\n"
+"Report-Msgid-Bugs-To:\n"
+"PO-Revision-Date:\n"
+"Last-Translator:\n"
+"Language-Team: Urho Ltd <info@urho.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "welcome"
+msgstr "Добре дошли!"
+
+msgid "log in"
+msgstr "влизане"
+
+msgid "log out"
+msgstr "излезете"
+
+msgid "powered by"
+msgstr "Сайтът се захранва от <a href=\"http://midgard-project.org\">Мидгард</a> и <a href=\"http://github.com/urho-eu/eu_urho_apartments\">eu_urho_apartments</a>"
+
+msgid "feedback"
+msgstr "<a href=\"mailto:ferenc.szekely@urho.eu?Subject=apartments feedback (bg_BG)\">Обратна връзка или въпроси?</a>"
+
+msgid "prev caption"
+msgstr "« Предишна"
+
+msgid "next caption"
+msgstr "Следваща »"
+
+msgid "features"
+msgstr "черти"
+
+msgid "general"
+msgstr "общо"
+
+msgid "bedroom"
+msgstr "спалня"
+
+msgid "kitchen"
+msgstr "кухня"
+
+msgid "bathroom"
+msgstr "баня"
+
+msgid "entertainment"
+msgstr "забавление"
+
+msgid "garden"
+msgstr "градина"
+
+msgid "cleaning"
+msgstr "почистване"
+
+msgid "gym"
+msgstr "фитнес"
+
+msgid "pets"
+msgstr "домашни любимци"
+
+msgid "kennel"
+msgstr "развъдник"
+
+msgid "parking"
+msgstr "паркинг"
+
+msgid "child safe"
+msgstr "безопасно за деца"
+
+msgid "non-smoking"
+msgstr "непушачи"
+
+msgid "central heating"
+msgstr "централно отопление"
+
+msgid "airconditioning"
+msgstr "климатик"
+
+msgid "playpen"
+msgstr "кошарката"
+
+msgid "bed linen"
+msgstr "спално бельо"
+
+msgid "extra heater"
+msgstr "нагревател"
+
+msgid "plates"
+msgstr "плочи"
+
+msgid "microwave"
+msgstr "микровълнова печка"
+
+msgid "dishwasher"
+msgstr "миялна машина"
+
+msgid "gas oven"
+msgstr "газова фурна"
+
+msgid "high chair"
+msgstr "висок стол"
+
+msgid "electric oven"
+msgstr "електрическа фурна"
+
+msgid "refrigerator"
+msgstr "хладилник"
+
+msgid "espresso machine"
+msgstr "еспресо машина"
+
+msgid "sauna"
+msgstr "сауна"
+
+msgid "shower"
+msgstr "душ"
+
+msgid "bathtub"
+msgstr "вана"
+
+msgid "jacuzzi"
+msgstr "джакузи"
+
+msgid "baby bathtub"
+msgstr "бебе вана"
+
+msgid "separate toilet"
+msgstr "отделна тоалетна"
+
+msgid "bar"
+msgstr "бар"
+
+msgid "tv"
+msgstr "тв"
+
+msgid "cd"
+msgstr "CD"
+
+msgid "dvd"
+msgstr "DVD"
+
+msgid "stereo"
+msgstr "стерео"
+
+msgid "karaoke"
+msgstr "караоке"
+
+msgid "hifi set"
+msgstr "HiFi набор"
+
+msgid "satellite"
+msgstr "спътник"
+
+msgid "game console"
+msgstr "игрова конзола"
+
+msgid "grill"
+msgstr "скара"
+
+msgid "barbeque"
+msgstr "барбекю"
+
+msgid "fireplace"
+msgstr "камина"
+
+msgid "playground"
+msgstr "площадка"
+
+msgid "swimming pool"
+msgstr "басейн"
+
+msgid "iron"
+msgstr "желязо"
+
+msgid "vacuumcleaner"
+msgstr "прахосмукачка"
+
+msgid "clothes dryer"
+msgstr "сушилня за дрехи"
+
+msgid "washing machine"
+msgstr "перална машина"

@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: Apartments\n"
+"Report-Msgid-Bugs-To:\n"
+"PO-Revision-Date:\n"
+"Last-Translator:\n"
+"Language-Team: Urho Ltd <info@urho.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "welcome"
+msgstr "Üdvözöljük az Urho Apartmanok oldalán!"
+
+msgid "log in"
+msgstr "belépés"
+
+msgid "log out"
+msgstr "kilépés"
+
+msgid "powered by"
+msgstr "Az oldal a <a href=\"http://midgard-project.org\">Midgard</a> és az <a href=\"http://github.com/urho-eu/eu_urho_apartments\">eu_urho_apartments</a> rendszerekre épül."
+
+msgid "feedback"
+msgstr "<a href=\"mailto:ferenc.szekely@urho.eu?Subject=apartman kérdés vagy vélemény\">Kérdés vagy vélemény?</a>"
+
+msgid "prev caption"
+msgstr "« Előző"
+
+msgid "next caption"
+msgstr "Következő »"
+
+msgid "features"
+msgstr "szolgáltatások"
+
+msgid "general"
+msgstr "általános"
+
+msgid "bedroom"
+msgstr "hálószoba"
+
+msgid "kitchen"
+msgstr "konyha"
+
+msgid "bathroom"
+msgstr "fürdőszoba"
+
+msgid "entertainment"
+msgstr "szórakozás"
+
+msgid "garden"
+msgstr "kert"
+
+msgid "cleaning"
+msgstr "takarítás"
+
+msgid "gym"
+msgstr "kondi terem"
+
+msgid "pets"
+msgstr "állatok"
+
+msgid "kennel"
+msgstr "kutyu futtató"
+
+msgid "parking"
+msgstr "parkoló"
+
+msgid "child safe"
+msgstr "gzermek barát"
+
+msgid "non-smoking"
+msgstr "nem dohányzó"
+
+msgid "central heating"
+msgstr "központi fűtés"
+
+msgid "airconditioning"
+msgstr "légkondicionáló"
+
+msgid "playpen"
+msgstr "járóka"
+
+msgid "bed linen"
+msgstr "ágynemű"
+
+msgid "extra heater"
+msgstr "hősugárzó"
+
+msgid "plates"
+msgstr "tányérok, edények, evőeszközök"
+
+msgid "microwave"
+msgstr "mikrohullámú sütő"
+
+msgid "dishwasher"
+msgstr "mosogatógép"
+
+msgid "gas oven"
+msgstr "gáztűzhely"
+
+msgid "high chair"
+msgstr "etetőszék"
+
+msgid "electric oven"
+msgstr "elektromos tűzhely"
+
+msgid "refrigerator"
+msgstr "hűtőgép"
+
+msgid "espresso machine"
+msgstr "presszógép"
+
+msgid "sauna"
+msgstr "szauna"
+
+msgid "shower cabin"
+msgstr "zuhany kabin"
+
+msgid "bathtub"
+msgstr "fürdőkád"
+
+msgid "jacuzzi"
+msgstr "jacuzzi"
+
+msgid "baby bathtub"
+msgstr "gyermek kád"
+
+msgid "separate toilet"
+msgstr "külön toilet"
+
+msgid "bar"
+msgstr "bár"
+
+msgid "tv"
+msgstr "tv"
+
+msgid "cd"
+msgstr "cd"
+
+msgid "dvd"
+msgstr "dvd"
+
+msgid "stereo"
+msgstr "sztereo berendezés"
+
+msgid "karaoke"
+msgstr "karaoke"
+
+msgid "hifi set"
+msgstr "hifi berendezés"
+
+msgid "satellite"
+msgstr "műhold vétel"
+
+msgid "game console"
+msgstr "játék konzol"
+
+msgid "grill"
+msgstr "grill"
+
+msgid "barbeque"
+msgstr "barbeque"
+
+msgid "fireplace"
+msgstr "tűzrakó hely"
+
+msgid "playground"
+msgstr "játszótér, homokozó"
+
+msgid "swimming pool"
+msgstr "medence"
+
+msgid "iron"
+msgstr "vasaló"
+
+msgid "vacuum cleaner"
+msgstr "porszívó"
+
+msgid "clothes dryer"
+msgstr "ruhaszárító gép"
+
+msgid "washing machine"
+msgstr "mosógép"
