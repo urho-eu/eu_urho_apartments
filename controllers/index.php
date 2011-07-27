@@ -13,6 +13,8 @@ class eu_urho_apartments_controllers_index
 {
     public function __construct(midgardmvc_core_request $request)
     {
+        $this->request = $request;
+        $this->mvc = midgardmvc_core::get_instance();
     }
 
     /**
@@ -51,7 +53,7 @@ class eu_urho_apartments_controllers_index
             $q->list_objects(),
             function ($apartment) use ($collection)
             {
-                $apartment->url = midgardmvc_core::get_instance()->dispatcher->generate_url('apartment', array('apartment' => $apartment->name), 'eu_urho_apartments');
+                $apartment->url = $this->mvc->dispatcher->generate_url('apartment', array('apartment' => $apartment->name), 'eu_urho_apartments');
                 $collection->attach($apartment);
             }
         );
