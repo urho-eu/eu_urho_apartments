@@ -59,6 +59,9 @@ class eu_urho_apartments_injector
 
         // set the company for the overall site
         $request->set_data_item('company', $this->midgardmvc->configuration->company);
+
+        // set the language
+        $request->set_data_item('lang', $this->midgardmvc->i18n->get_language());
     }
 
     /**
